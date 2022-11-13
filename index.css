@@ -1,0 +1,51 @@
+body {
+  background-color: #7353ff;
+  padding-top: 45px;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 0px;
+}
+.main_box {
+  width: 350px;
+  height: 550px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px 40px;
+  margin-top: 15px;
+  margin: auto;
+}
+
+.word_reg {
+  text-align: center;
+  margin-top: 0px;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  height: 1px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+input {
+  height: 35px;
+  width: 360px;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.button button {
+  background: linear-gradient(90deg, #4b51ff, #a849fb);
+  border: none;
+  size: 20px 10px;
+  height: 40px;
+  width: 250px;
+  border-radius: 20px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+}
