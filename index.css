@@ -20,13 +20,14 @@ h1 {
 .word_reg {
   text-align: center;
   margin-top: 0px;
+  margin-bottom: 90px;
 }
 
 hr {
   margin-top: 0px;
   margin-bottom: 20px;
   height: 1px;
-  background-color: black;
+  background-color: #374957;
   border-radius: 5px;
 }
 
@@ -37,6 +38,7 @@ input {
   border: none;
   background: transparent;
 }
+
 .button button {
   background: linear-gradient(90deg, #4b51ff, #a849fb);
   border: none;
@@ -45,7 +47,28 @@ input {
   width: 250px;
   border-radius: 20px;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: OCR A Std, monospace;
   font-size: 17px;
   cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 85px;
+}
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+.if {
+  font-family: OCR A Std, monospace, "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
+  width: 400px;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.if a {
+  color: black;
 }
