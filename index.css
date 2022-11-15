@@ -1,5 +1,5 @@
 body {
-  background-color: #7353ff;
+  background: linear-gradient(90deg, #4b51ff, #a849fb);
   padding-top: 45px;
 }
 
@@ -8,12 +8,11 @@ h1 {
   margin-top: 0px;
 }
 .main_box {
-  width: 350px;
+  width: 370px;
   height: 550px;
   background-color: white;
   border-radius: 30px;
   padding: 20px 40px;
-  margin-top: 15px;
   margin: auto;
 }
 
@@ -53,7 +52,7 @@ input {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
-  margin-top: 85px;
+  margin-top: 75px;
 }
 .button a {
   color: white;
